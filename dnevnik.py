@@ -25,8 +25,6 @@ while True:
         print(torch.min(you))
     elif x == 2:
         print(torch.max(you))
-    elif x == 3:
-        print(torch.mean(you))
     elif x == 4:
         a = int(input("первая оценка:"))
         a1 = int(input("вторая оценка:"))
